@@ -211,6 +211,7 @@ def run_gradio_app(engine):
 
 
 if __name__ == '__main__':
+    # Modif 
     torch.set_float32_matmul_precision('high')
     
     parser = argparse.ArgumentParser()
